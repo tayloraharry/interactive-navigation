@@ -1,0 +1,45 @@
+body {
+  font-family: 'Lato', serif;
+}
+
+nav {
+  margin-top: 30px;
+  width: 95%;
+}
+
+nav ul {
+  list-style-type: none;
+  text-align: center;
+}
+nav li{
+  display: inline-block;
+  float: left;
+  margin-right: 15px;
+}
+
+nav li a {
+  text-decoration: none;
+  color: black;
+  padding: 12px;
+    border: 1px solid black;
+}
+
+nav ul li:nth-child(5) {
+  margin-right: 0;
+}
+
+nav li a:hover {
+  color: #ff751a;
+  background-color: #e0e0eb;
+}
+
+nav li a:active,
+nav li a:target {
+  padding: 12px 20px;
+}
+
+.selected {
+  color: #ff751a;
+  background-color: #e0e0eb;
+  padding: 12px 20px;
+}
